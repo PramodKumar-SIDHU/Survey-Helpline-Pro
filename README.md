@@ -1,6 +1,6 @@
 # 🛠 Survey Helpline Pro
 
-![Survey Helpline Pro] ![QGIS 3+](https://img.shields.io/badge/QGIS-3.x-blue?style=flat-square) ![License GPL](https://img.shields.io/badge/License-GPL--2.0-orange?style=flat-square)
+![QGIS 3+](https://img.shields.io/badge/QGIS-3.x-blue?style=flat-square) ![License GPL](https://img.shields.io/badge/License-GPL--2.0-orange?style=flat-square)
 
 ---
 
@@ -79,4 +79,5 @@ Download [Sample Excel](link-to-your-sample-excel) for reference.
 - Developed for **Government of Andhra Pradesh**  
 - Supports **SVAMITVA / SS&LR initiatives**  
 - Follows **QGIS plugin development guidelines**  
+
 
