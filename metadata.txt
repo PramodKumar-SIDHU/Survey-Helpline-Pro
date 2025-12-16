@@ -1,0 +1,54 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Survey Helpline Pro
+qgisMinimumVersion=3.22
+qgisMaximumVersion=3.99
+description=Survey & Land Records and SVAMITVA, GIS automation toolkit for parcel, shapefile processing and map generation
+version=1.0.0
+author=Batchu Pramod Kumar
+email=bpramod29@gmail.com
+
+about=Survey Helpline Pro is a unified QGIS plugin designed to streamline and automate spatial data processing tasks required across various survey-related projects. The plugin provides dedicated workflows for Survey & Land Records (SS&LR) and Panchayat Raj (SVAMITVA) departments, ensuring consistent, error-free, and standardized outputs at every stage of the project lifecycle. Its primary purpose is to reduce manual effort, eliminate repetitive GIS operations, and provide survey teams with fast, reliable, and uniform tools for shapefile processing, parcel management, and other survey-related GIS functions. SVAMITVA → Reprocess Shapefile (Merged Shapefile) This tool automates the regeneration of SVAMITVA project shapefiles by guiding the user through a structured processing sequence. The user selects the polygon layer and required parameters through a simple dialog box. On clicking Run, the tool performs a series of predefined operations—cleaning, validating, merging, fixing geometry, and regenerating the final standardized shapefile. This ensures that all survey parcels follow uniform structure, naming conventions, attribute standardization, and topological consistency across all villages and projects.
+
+
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=survey,land-records,svamitva,parcel,parcel-map,ppn,shapefile,vector,geometry,topology,validation,processing,automation,gis,government,andhra-pradesh,sslr,panchayat-raj,india
+
+
+category=Vector
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
+homepage=https://github.com/PramodKumar-SIDHU/Survey-Helpline-Pro
+repository=https://github.com/PramodKumar-SIDHU/Survey-Helpline-Pro
+tracker=https://github.com/PramodKumar-SIDHU/Survey-Helpline-Pro/issues
+
+
+license=GPL-2.0-or-later
+

@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/plugins/survey_helpline_pro" >
+        <file>icon.png</file>
+        <file>Reprocess_icon.png</file>
+    </qresource>
+</RCC>
