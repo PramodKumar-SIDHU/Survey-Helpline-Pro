@@ -1,6 +1,12 @@
 # 🛠 Survey Helpline Pro
+![Departments SS%26LR%20%26%20PR%26RD](https://img.shields.io/badge/Departments-SS%26LR%20%26%20PR%26RD-FF9933?style=flat-square)
+![Region Andhra Pradesh](https://img.shields.io/badge/Region-AndhraPradesh-FFFFFF?style=flat-square&logoColor=000000) 
+![Status Active](https://img.shields.io/badge/Status-Active-138808?style=flat-square)
 
-![QGIS 3+](https://img.shields.io/badge/QGIS-3.x-blue?style=flat-square) ![License GPL](https://img.shields.io/badge/License-GPL--2.0-orange?style=flat-square)
+
+![QGIS 3+](https://img.shields.io/badge/QGIS-3.x-blue?style=flat-square) 
+![License GPL](https://img.shields.io/badge/License-GPL--2.0-orange?style=flat-square)
+
 
 ---
 
@@ -54,8 +60,6 @@ It provides workflows for **Survey & Land Records (SS&LR)** and **Panchayat Raj 
 - First row must contain column headers  
 - Headers must match exactly (case-sensitive, no extra spaces)  
 
-Download [Sample Excel](link-to-your-sample-excel) for reference.
-
 ---
 
 ## 🛠 Development
@@ -79,5 +83,6 @@ Download [Sample Excel](link-to-your-sample-excel) for reference.
 - Developed for **Government of Andhra Pradesh**  
 - Supports **SVAMITVA / SS&LR initiatives**  
 - Follows **QGIS plugin development guidelines**  
+
 
 
