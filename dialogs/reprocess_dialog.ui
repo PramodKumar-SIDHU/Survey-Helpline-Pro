@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>476</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <item>
+    <widget class="QTabWidget" name="dlg_reprocess">
+     <property name="font">
+      <font>
+       <family>Bookman Old Style</family>
+       <pointsize>9</pointsize>
+      </font>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="Parameters">
+      <property name="maximumSize">
+       <size>
+        <width>16777215</width>
+        <height>469</height>
+       </size>
+      </property>
+      <attribute name="title">
+       <string>Parameters</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout">
+         <item>
+          <widget class="QLabel" name="label">
+           <property name="sizePolicy">
+            <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+             <horstretch>0</horstretch>
+             <verstretch>0</verstretch>
+            </sizepolicy>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>16777215</width>
+             <height>30</height>
+            </size>
+           </property>
+           <property name="font">
+            <font>
+             <family>Bookman Old Style</family>
+             <pointsize>10</pointsize>
+             <weight>75</weight>
+             <bold>true</bold>
+             <underline>true</underline>
+            </font>
+           </property>
+           <property name="accessibleName">
+            <string notr="true"/>
+           </property>
+           <property name="text">
+            <string>Reprocess Shapefile (Merged Shapefile)</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignCenter</set>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <layout class="QGridLayout" name="gridLayout">
+           <item row="4" column="1" colspan="2">
+            <widget class="QComboBox" name="cmb_built_val"/>
+           </item>
+           <item row="4" column="0">
+            <widget class="QLabel" name="lbl_built_val">
+             <property name="text">
+              <string>Select BUILT_UP value</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="1">
+            <widget class="QLineEdit" name="txt_output"/>
+           </item>
+           <item row="5" column="1" colspan="2">
+            <widget class="QComboBox" name="cmb_open_val"/>
+           </item>
+           <item row="8" column="0">
+            <widget class="QLabel" name="RevenueVillage">
+             <property name="text">
+              <string>Revenue Village</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="0">
+            <widget class="QLabel" name="lbl_abr_col">
+             <property name="text">
+              <string>Select ABR column</string>
+             </property>
+            </widget>
+           </item>
+           <item row="3" column="0" colspan="3">
+            <widget class="QPushButton" name="btn_check_abr">
+             <property name="text">
+              <string>Check blanks in ABR column</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="1" colspan="2">
+            <widget class="QLineEdit" name="lineMandal"/>
+           </item>
+           <item row="10" column="0">
+            <widget class="QLabel" name="lbl_output">
+             <property name="text">
+              <string>Select Output Folder</string>
+             </property>
+            </widget>
+           </item>
+           <item row="2" column="1" colspan="2">
+            <widget class="QComboBox" name="cmb_abr_column"/>
+           </item>
+           <item row="8" column="1" colspan="2">
+            <widget class="QLineEdit" name="lineVillage"/>
+           </item>
+           <item row="1" column="1" colspan="2">
+            <widget class="QComboBox" name="cmb_polygon_layers"/>
+           </item>
+           <item row="9" column="0">
+            <widget class="QLabel" name="RevenueLGDcode">
+             <property name="text">
+              <string>Revenue LGD Code</string>
+             </property>
+            </widget>
+           </item>
+           <item row="7" column="0">
+            <widget class="QLabel" name="Mandal">
+             <property name="text">
+              <string>Mandal</string>
+             </property>
+            </widget>
+           </item>
+           <item row="5" column="0">
+            <widget class="QLabel" name="lbl_open_val">
+             <property name="text">
+              <string>Select OPEN_SP value</string>
+             </property>
+            </widget>
+           </item>
+           <item row="10" column="2">
+            <widget class="QPushButton" name="btn_browse_output">
+             <property name="text">
+              <string>Browse</string>
+             </property>
+            </widget>
+           </item>
+           <item row="1" column="0">
+            <widget class="QLabel" name="lbl_input">
+             <property name="text">
+              <string>Select Polygon Layer</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="0">
+            <widget class="QLabel" name="District">
+             <property name="text">
+              <string>District</string>
+             </property>
+            </widget>
+           </item>
+           <item row="6" column="1" colspan="2">
+            <widget class="QComboBox" name="comboDistrict"/>
+           </item>
+           <item row="9" column="1" colspan="2">
+            <widget class="QLineEdit" name="lineLGD"/>
+           </item>
+          </layout>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_run">
+           <property name="text">
+            <string>Run</string>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="QPushButton" name="btn_cancel">
+           <property name="text">
+            <string>Cancel</string>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="Log">
+      <attribute name="title">
+       <string>Log</string>
+      </attribute>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <layout class="QVBoxLayout" name="verticalLayout_2">
+         <item>
+          <widget class="QTextEdit" name="txt_log"/>
+         </item>
+        </layout>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
